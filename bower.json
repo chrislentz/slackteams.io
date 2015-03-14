@@ -1,0 +1,13 @@
+{
+  "name": "SlackTeams.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/chrislentz/slackteams.io",
+  "authors": [
+    "Chris Lentz <chris@atlchris.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "foundation": "~5.5.1",
+    "fontawesome": "~4.3.0"
+  }
+}
