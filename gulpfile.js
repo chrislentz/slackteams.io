@@ -85,6 +85,9 @@ gulp.task('js', ['clean-dest-js'], function () {
         // Concat JS Files
         .pipe(concat('all.min.js'))
 
+        // Uglify JS
+        .pipe(uglify())
+
         // Move to Final Destination
         .pipe(gulp.dest(base_dest + 'js/'));
 
