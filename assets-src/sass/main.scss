@@ -38,6 +38,7 @@ p {
 h1 {
   font-size: 3rem;
   color: #009ae9;
+  font-weight: 700;
 
   @media #{$medium-up} {
     font-size: 4rem;
