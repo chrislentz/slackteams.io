@@ -25,6 +25,30 @@ body {
   color: #464446;
 
   text-align: center;
+
+  &.blue {
+    h1, .list > div > a {
+      color: #6ecadc;
+    }
+  }
+
+  &.pink {
+    h1, .list > div > a {
+      color: #e01563;
+    }
+  }
+
+  &.yellow {
+    h1, .list > div > a {
+      color: #e9a820;
+    }
+  }
+
+  &.green {
+    h1, .list > div > a {
+      color: #3eb991;
+    }
+  }
 }
 
 a, a:link, a:active, a:visited, a:hover {
@@ -37,7 +61,6 @@ p {
 
 h1 {
   font-size: 3rem;
-  color: #009ae9;
   font-weight: 700;
 
   @media #{$medium-up} {
