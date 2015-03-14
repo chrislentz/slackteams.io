@@ -27,32 +27,28 @@ body {
   text-align: center;
 
   &.blue {
-    h1, .list > div > a {
+    h1, a {
       color: #6ecadc;
     }
   }
 
   &.pink {
-    h1, .list > div > a {
+    h1, a {
       color: #e01563;
     }
   }
 
   &.yellow {
-    h1, .list > div > a {
+    h1, a {
       color: #e9a820;
     }
   }
 
   &.green {
-    h1, .list > div > a {
+    h1, a {
       color: #3eb991;
     }
   }
-}
-
-a, a:link, a:active, a:visited, a:hover {
-  color: #464446;
 }
 
 p {
