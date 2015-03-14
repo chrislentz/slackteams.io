@@ -83,6 +83,22 @@ header {
   margin-top: 30px;
 }
 
+header p {
+  width: 500px;
+  margin: 0 auto;
+}
+
+footer {
+  margin: 30px 0;
+  color: #7F7A7E;
+  font-size: 12px;
+}
+
+footer a, footer a:link, footer a:active, footer a:visited, footer a:hover {
+  color: #7F7A7E;
+  text-decoration: none;
+}
+
 .list {
   width: 500px;
   margin: 50px auto 0 auto;
