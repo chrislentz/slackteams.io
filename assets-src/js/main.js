@@ -1,8 +1,6 @@
 function toggleFixedMenu() {
   var num = 100;
 
-  console.log($(window).scrollTop());
-
   if ($(window).scrollTop() > num) {
     if ($('.mini-logo').css('opacity') == 0) {
       $('.mini-logo').animate({ opacity: 1.0 }, 500);
