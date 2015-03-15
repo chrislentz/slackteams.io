@@ -44,6 +44,10 @@ body {
   }
 
   &.blue {
+    .fixed-header {
+      background: $blue;
+    }
+
     h1, a {
       color: $blue;
     }
@@ -54,6 +58,10 @@ body {
   }
 
   &.pink {
+    .fixed-header {
+      background: $pink;
+    }
+
     h1, a {
       color: $pink;
     }
@@ -64,6 +72,10 @@ body {
   }
 
   &.yellow {
+    .fixed-header {
+      background: $yellow;
+    }
+
     h1, a {
       color: $yellow;
     }
@@ -74,6 +86,10 @@ body {
   }
 
   &.green {
+    .fixed-header {
+      background: $green;
+    }
+
     h1, a {
       color: $green;
     }
@@ -97,9 +113,31 @@ h1 {
   }
 }
 
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  text-align: center;
+
+  height: 40px;
+  width: 100%;
+
+  z-index: 999;
+
+  color: #fff;
+
+  font-size: 1.5rem;
+  line-height: 40px;
+
+  .mini-logo {
+    opacity: 0;
+  }
+}
+
 header {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 footer {
@@ -117,7 +155,7 @@ footer {
 }
 
 .list {
-  margin: 50px auto 0 auto;
+  margin: 0 auto;
 
   div {
     margin-top: 50px;
