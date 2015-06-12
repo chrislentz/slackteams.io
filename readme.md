@@ -8,7 +8,8 @@ Our list is open-source. All it takes to contribute to the list is a pull reques
 Not great with Git? Reach out to one of the contributors (from the list below) on Twitter to have a team added to the list.
 
 ##Contributors
-Chris Lentz - [Twitter](http://twitter.com/atlchris) | [Github](http://github.com/chrislentz)
+Chris Lentz - [Twitter](http://twitter.com/atlchris) | [Github](http://github.com/chrislentz)  
+Shawn Mayzes - [Twitter](https://twitter.com/smayzes) | [Github](http://github.com/smayzes)
 
 ##Todo List
 * Add tags.
